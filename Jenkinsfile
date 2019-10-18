@@ -6,7 +6,7 @@ pipeline {
                 sh 'python --version'
             }
         }
-        stage('Stage 2 - Run hello world') {
+        stage('Stage 2 - Run Python File') {
             steps {
                 sh 'python file.py'
             }
